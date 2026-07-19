@@ -1,0 +1,30 @@
+{
+  "name": "banking-backend",
+  "version": "1.0.0",
+  "description": "A production-inspired banking backend built with Node.js, Express, and MongoDb, featuring secure authentication, account management, double-entry ledger accounting, and atomic transactions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joydeep-devx/banking-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joydeep-devx/banking-backend/issues"
+  },
+  "homepage": "https://github.com/joydeep-devx/banking-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.4"
+  }
+}
