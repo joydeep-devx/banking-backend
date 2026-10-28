@@ -14,4 +14,13 @@ router.post(
   transactionController.createTransaction,
 );
 
+/**
+ * - POSt /api/transaction/system/initial-fund
+ * - Create a new initial funds transaction for system user
+ */
+router.post("/system/initial-fund",
+  authMiddleware.authSystemUserMiddleware,
+  transactionController.createInitialFundTransaction,
+);
+
 module.exports = router;
