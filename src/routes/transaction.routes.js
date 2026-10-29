@@ -4,7 +4,7 @@ const transactionController = require("../controllers/transaction.controller.js"
 const router = require("express").Router();
 
 /**
- * - POST /api/transaction
+ * - POST /api/transactions
  * - Create a new transaction
  * - Protected route
  */
